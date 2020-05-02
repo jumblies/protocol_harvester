@@ -1,0 +1,10 @@
+docs.google.com/feeds/download/spreadsheets/Export?key=<FILE_ID>&exportFormat=pdf 
+docs.google.com/feeds/download/spreadsheets/Export?key=1HbPPMVDNd6XuxWoVWDcJS5VxKTflLeXTZXOOYMAFYQU&exportFormat=pdf 
+docs.google.com/feeds/download/spreadsheets/Export?key=1hFzIw_3inA5tbUnNO3YxlwDda6IJjVi0n45lGPJ1LzU&exportFormat=pdf 
+<iframe 
+src="https://docs.google.com/spreadsheets/d/1hFzIw_3inA5tbUnNO3YxlwDda6IJjVi0n45lGPJ1LzU/htmlembed" 
+title="CT Abdomen-Pelvis - Hemat...rkup Greater than 45 2019" id="1742080595" width="100%" height="600" 
+frameborder="0"></iframe> 1.  write python to os.walk through all the files 2. regex each file line by 
+line to find the links preceded by "https://docs.google.com/spreadsheets/d/" and followed by 
+"/htmlembed" 3. regex search (?:docs.google.com/spreadsheets/d/)(.+)(?:/htmlembed) from pythex
+4.  got the list with code attached.  
